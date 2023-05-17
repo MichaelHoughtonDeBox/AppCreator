@@ -2,16 +2,12 @@
 import streamlit as st
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.llms import OpenAI
-import pinecone
 from langchain.prompts import PromptTemplate
 from langchain import PromptTemplate
 from  langchain import PromptTemplate, LLMChain
-import os
 from langchain.memory import ConversationBufferMemory
 from langchain.chat_models import ChatOpenAI
-import ast
 from streamlit_extras.switch_page_button import switch_page
-import time
 
 api = st.secrets["OPENAI_KEY"]
 
