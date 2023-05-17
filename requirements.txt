@@ -16,7 +16,6 @@ Authlib==1.2.0
 backcall==0.2.0
 backoff==2.2.1
 bcrypt==4.0.1
-beam-sdk==0.12.8
 beautifulsoup4==4.12.2
 bleach==6.0.0
 blinker==1.6.2
@@ -111,9 +110,6 @@ Markdown==3.4.3
 markdown-it-py==2.2.0
 markdownlit==0.0.7
 MarkupSafe==2.1.2
-marshmallow==3.19.0
-marshmallow-dataclass==8.5.12
-marshmallow-enum==1.5.1
 matplotlib==3.7.1
 matplotlib-inline==0.1.6
 mdurl==0.1.2
