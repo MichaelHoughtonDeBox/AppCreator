@@ -1,3 +1,5 @@
 streamlit==1.21.0
 langchain @ git+https://github.com/hwchase17/langchain.git@3637d6da6e51cd8b96a9a4f91eb71e8db21a8b20
 streamlit-extras==0.2.7
+openai==0.27.4
+openapi-schema-pydantic==1.2.4
