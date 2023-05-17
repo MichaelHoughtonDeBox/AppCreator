@@ -1,5 +1,5 @@
 streamlit==1.21.0
 langchain @ git+https://github.com/hwchase17/langchain.git@3637d6da6e51cd8b96a9a4f91eb71e8db21a8b20
 pinecone-client==2.2.1
-ast==0.12.8
+asttokens==2.2.1
 streamlit-extras==0.2.7
