@@ -9,7 +9,7 @@ from langchain.memory import ConversationBufferMemory
 from langchain.chat_models import ChatOpenAI
 from streamlit_extras.switch_page_button import switch_page
 import ast
-install openai
+import openai
 
 api = st.secrets["OPENAI_KEY"]
 
