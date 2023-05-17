@@ -6,9 +6,10 @@ from langchain.prompts import PromptTemplate
 from langchain import PromptTemplate
 from  langchain import PromptTemplate, LLMChain
 from langchain.memory import ConversationBufferMemory
-from langchain.chat_models import ChatOpenAI, OpenAI
+from langchain.chat_models import ChatOpenAI
 from streamlit_extras.switch_page_button import switch_page
 import ast
+from langchain import OpenAI
 
 api = st.secrets["OPENAI_KEY"]
 
